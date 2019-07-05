@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tablas HTML</title>
+</head>
+<body>
+    <h2>Tabla Simple</h2>
+    <table border="5"> 
+        <caption>Tabla de Ahorros 2019</caption>
+        <tr>
+            <th>Mes</th>
+            <th>Ahorro</th>
+        </tr>
+        <tr>
+            <td>Enero</td>
+            <td>$100</td>
+        </tr>
+        <tr>
+            <td>Febrero</td>
+            <td>$80</td>
+        </tr>
+        <tr>
+            <th>Total</th>
+            <th>$180</th>
+        </tr>        
+    </table>    
+    <h2>Tabla Semántica</h2>
+    <table border="5"> 
+        <caption>Tabla de Ahorros 2019</caption>
+        <thead>
+          <tr>
+            <th>Mes</th>
+            <th>Ahorro</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Enero</td>
+            <td>$100</td>
+          </tr>
+          <tr>
+            <td>Febrero</td>
+            <td>$80</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <th>Total</th>
+            <th>$180</th>
+          </tr>
+        </tfoot>
+    </table>  
+    <h2>Tabla con Rowspan</h2>  
+    <table border="3">
+        <tr>
+            <th>Nombre:</th>
+            <td>Fort Ricardo Ariel</td>
+        </tr>
+        <tr>
+            <th rowspan="3">Teléfonos:</th>
+            <td>55577854</td>
+        </tr>
+        <tr>
+            <td>55577855</td>
+        </tr>
+        <tr>
+            <td>55577855</td>
+        </tr>
+    </table> 
+    <h2>Tabla con Colspan</h2>
+    <table border="3">
+        <tr>
+            <th>Nombre</th>
+            <th colspan="2">Teléfonos</th>
+        </tr>
+        <tr>
+            <td>Fort Ricardo Ariel</td>
+            <td>55577854</td>
+            <td>55577855</td>
+        </tr>
+    </table>     
+</body>
+</html>
